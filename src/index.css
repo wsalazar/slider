@@ -363,3 +363,11 @@ ul {
 .slick-next::before {
   color: var(--primary-500) !important;
 }
+
+.previous {
+  transform:translateX(100%)
+}
+
+.next {
+  transform:translateX(-100%)
+}
