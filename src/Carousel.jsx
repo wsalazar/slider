@@ -7,7 +7,7 @@ const Carousel = ({people}) => {
   useEffect(() => {
       let interval = setInterval(() => {
         next()
-      }, 1000)
+      }, 2000)
       return () => {
         clearInterval(interval)
       }  },[currentPerson])
